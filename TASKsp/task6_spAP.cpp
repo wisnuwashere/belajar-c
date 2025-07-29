@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Kasus: kalkulator simpel yang menggunakan input dan output sebagai dasar
+
 int main()
 {
   float a, b, result;
