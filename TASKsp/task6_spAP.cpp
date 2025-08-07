@@ -7,10 +7,10 @@ int main()
   float a, b, result;
   char operasi;
 
-  printf("insert operation (+, -, *, /): ");
-  scanf("%c");
+  printf("Insert operation (+, -, *, /): ");
+  scanf(" %c", &operasi); // spasi sebelum %c untuk menangani newline
 
-  printf("Masukkan dua angka:");
+  printf("Masukkan dua angka: ");
   scanf("%f %f", &a, &b);
 
   switch (operasi)
@@ -36,7 +36,8 @@ int main()
   default:
     printf("Operasi tidak dikenali.\n");
     return 1;
-    printf("Hasil: %.2f\n", result);
-
-    return 0;
   }
+
+  printf("Hasil: %.2f\n", result);
+  return 0;
+}
