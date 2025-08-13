@@ -1,7 +1,7 @@
 // trapped_menu.c
 #include <stdio.h>
 
-int main(void)
+int main()
 {
   int pilihan = 0, attempts = 0;
   do
